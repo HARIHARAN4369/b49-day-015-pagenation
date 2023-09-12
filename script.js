@@ -45,7 +45,7 @@ function changePage(num) {
 function CreateDataTable(start, end) {
     optdiv.innerHTML = " ";
     var request = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json";
+    var url = "https://gist.githubusercontent.com/rvsp/add40254aa126f045837fa5b51f47f1f/raw/4d724bfabf4cce7379a386e23bef6576ab99a2f9/pagination.json";
 
     request.open('GET', url, true);
     request.send();
